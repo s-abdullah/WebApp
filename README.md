@@ -26,3 +26,5 @@ Create a templates folder in you subapplication to serve more complicated HTMl f
 Need to add installed application to settings.py of the project. (from apps.py in the installed project)
 
 Add a base.html file for repeated code in HTML cuz DRY
+
+CSS and Javascript files need to in a directory called static
