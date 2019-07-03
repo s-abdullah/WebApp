@@ -19,3 +19,8 @@ Once we add new paths/urls, the default page wil not be showna nd we have to spe
 -- We can hvae blog style application and then we can have  store lile application in the same website, this will be another application in the same project
 -- so this gives alittle abstarction, since you can develop applications and if you like it, use them as parts of different projects
 -- the first appliction for this project will be a Blog Style application
+
+
+Create a templates folder in you subapplication to serve more complicated HTMl files, since by default django looks for a templates subdirectory. Due to how django is configured, we need to make a folder inside our templated for our application.
+
+Need to add installed application to settings.py of the project. (from apps.py in the installe dproject)
