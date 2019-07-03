@@ -23,4 +23,6 @@ Once we add new paths/urls, the default page wil not be showna nd we have to spe
 
 Create a templates folder in you subapplication to serve more complicated HTMl files, since by default django looks for a templates subdirectory. Due to how django is configured, we need to make a folder inside our templated for our application.
 
-Need to add installed application to settings.py of the project. (from apps.py in the installe dproject)
+Need to add installed application to settings.py of the project. (from apps.py in the installed project)
+
+Add a base.html file for repeated code in HTML cuz DRY
